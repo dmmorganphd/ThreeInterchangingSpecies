@@ -1,0 +1,121 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4466,        113]
+NotebookOptionsPosition[      3354,         86]
+NotebookOutlinePosition[      3936,        107]
+CellTagsIndexPosition[      3893,        104]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["<Name>", "Title",
+ CellChangeTimes->{{3.79987800570578*^9, 3.799878010303668*^9}, {
+  3.800808007642687*^9, 
+  3.800808015551523*^9}},ExpressionUUID->"969e6714-a59c-4d3f-9d75-\
+e00f7d8b7b2b"],
+
+Cell[TextData[StyleBox["This notebook has been created with Mathematica \
+Commercial License L3302-6545 . ",
+ FontSlant->"Italic",
+ FontColor->RGBColor[1, 0, 1]]], "Text",
+ CellChangeTimes->{{3.799958787694915*^9, 3.799958917176119*^9}, {
+  3.799959159335161*^9, 3.799959296183918*^9}, {3.799962639485429*^9, 
+  3.7999626852427797`*^9}, {3.799962798917831*^9, 3.799962800990922*^9}, {
+  3.800293824579274*^9, 3.800293865820447*^9}},
+ TextAlignment->Right,ExpressionUUID->"db93a966-6d4f-4e83-aa73-f274025bcb39"],
+
+Cell["\<\
+<Date of github first commit> 
+
+Copyright (c) David M. Morgan, Ph.D.
+GNU General Public License, v. 3.0 or later
+
+Antigonish Landing, NS B2G 2L2 Canada
+dmmorgan@gmail.com
+(902) 318-4906\
+\>", "Text",
+ CellChangeTimes->{{3.7999628047731113`*^9, 3.79996281342213*^9}, {
+  3.799962866758527*^9, 3.7999628956860027`*^9}, {3.8002938530727587`*^9, 
+  3.8002938711634073`*^9}, {3.800293909924945*^9, 3.8002944345050583`*^9}, {
+  3.8003134957690477`*^9, 3.800313604548006*^9}, {3.8003136433575687`*^9, 
+  3.8003136502424507`*^9}, {3.800313680738512*^9, 3.800313933550432*^9}, {
+  3.80031396556758*^9, 3.800314054692861*^9}, {3.800314164846736*^9, 
+  3.800314167918345*^9}, {3.800808025466436*^9, 
+  3.8008080660530453`*^9}},ExpressionUUID->"3630ed3d-5165-4127-8c22-\
+b13aeac4d0a0"],
+
+Cell[TextData[StyleBox["Freelance Chem and Math Wizardry",
+ FontSlant->"Italic",
+ FontColor->RGBColor[1, 0, 1]]], "Text",
+ CellChangeTimes->{{3.7999626898995934`*^9, 3.799962698385325*^9}, {
+  3.800049637424473*^9, 3.8000496454342422`*^9}, {3.800293883476203*^9, 
+  3.800293906281486*^9}, {3.800653709994596*^9, 3.800653737106647*^9}, {
+  3.8008079112288733`*^9, 3.8008079311985483`*^9}},
+ TextAlignment->Right,ExpressionUUID->"8023e40d-e453-4cd2-9faf-9a898070bf8a"],
+
+Cell["<Introductory comment>", "Text",
+ CellChangeTimes->{{3.800049655797071*^9, 3.8000496590615063`*^9}, {
+   3.8000496906245403`*^9, 3.8000498292111*^9}, {3.800049912252818*^9, 
+   3.800049952103775*^9}, {3.800052778912959*^9, 3.800052779717979*^9}, 
+   3.800314251582643*^9, {3.800807994410877*^9, 
+   3.800808000533897*^9}},ExpressionUUID->"141a584b-ee48-4530-95ff-\
+340adecfc75b"],
+
+Cell[TextData[StyleBox["Algorithm: ", "Subsubsection"]], "Text",
+ CellChangeTimes->{{3.799879547156506*^9, 
+  3.799879558304983*^9}},ExpressionUUID->"f10ad161-96a8-441f-859b-\
+38f8adcec4fa"],
+
+Cell[TextData[StyleBox["Code:", "Subsubsection"]], "Text",
+ CellChangeTimes->{{3.800050154457774*^9, 3.8000501567527103`*^9}, 
+   3.800050198446967*^9},ExpressionUUID->"a3b81cd0-b417-448e-8b1d-\
+cacd4367104e"]
+}, Open  ]]
+},
+WindowSize->{747, 892},
+WindowMargins->{{94, Automatic}, {3, 40}},
+PrintingCopies->1,
+PrintingPageRange->{Automatic, Automatic},
+PrintingOptions->{"PaperOrientation"->"Portrait",
+"PaperSize"->{Automatic, Automatic},
+"PostScriptOutputFile"->"/home/david/print.pdf"},
+FrontEndVersion->"12.1 for Linux x86 (64-bit) (March 18, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"f72c098a-3000-4869-9c22-500f5fa8ef8f"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 197, 4, 98, "Title",ExpressionUUID->"969e6714-a59c-4d3f-9d75-e00f7d8b7b2b"],
+Cell[780, 28, 510, 8, 35, "Text",ExpressionUUID->"db93a966-6d4f-4e83-aa73-f274025bcb39"],
+Cell[1293, 38, 783, 18, 196, "Text",ExpressionUUID->"3630ed3d-5165-4127-8c22-b13aeac4d0a0"],
+Cell[2079, 58, 466, 7, 35, "Text",ExpressionUUID->"8023e40d-e453-4cd2-9faf-9a898070bf8a"],
+Cell[2548, 67, 385, 6, 35, "Text",ExpressionUUID->"141a584b-ee48-4530-95ff-340adecfc75b"],
+Cell[2936, 75, 190, 3, 40, "Text",ExpressionUUID->"f10ad161-96a8-441f-859b-38f8adcec4fa"],
+Cell[3129, 80, 209, 3, 40, "Text",ExpressionUUID->"a3b81cd0-b417-448e-8b1d-cacd4367104e"]
+}, Open  ]]
+}
+]
+*)
+

@@ -1,0 +1,29 @@
+From Strang, Chapter 6
+
+Eigenvalues are useful in the description of problems in which 
+the solution is a function of time. 
+
+Eigenvectors are those vectors which are changed only in length in 
+left multiplication by AA. That is, for an eigenvector xx:
+
+AA xx = lambda xx
+
+in which lambda is the corresponding eigenvalue. 
+
+Rearranging: 
+
+AA xx - lambda xx = 00
+
+(AA - lambda II) xx = 00
+
+Therefore xx is an eigenvector of AA if it is in the nullspace of 
+(AA - lambda II).
+
+To find the eigenvalues: 
+
+det(AA - lambda II) = 0
+
+
+See p 261 of Strang. He's hard to understand, so I rephrase in my own words: sets of differential equations which are linear and which have constant coefficients may be converted directly into linear algebra for solution using: 
+
+d/dt uu 
